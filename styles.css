@@ -1,0 +1,33 @@
+
+#bannerMagical {
+
+  margin-left: 2em;
+  margin-right: 2em;
+    background-position: center center; 
+    background-size: 100% 100%; 
+    
+}
+
+nav{
+    position: fixed
+}
+/* #buttonToBuyTicket{
+    text-align: left;
+    padding: right 520px;
+} */
+
+/* #intro .navbar-brand {
+   
+   border-radius: 5px 5px 0 0;
+  } */
+
+  /* Height for devices larger than 576px */
+  @media (min-width: 992px) {
+    #intro {
+      margin-top: -58.59px;
+    }
+  }
+
+  .navbar .nav-link {
+    color: #fff !important;
+  }

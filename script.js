@@ -9,15 +9,18 @@ function buyTicket() {
   const age = prompt("How old are you?");
   let cost = getBaseTicketCost(age);
   const isMatinee = prompt("Are you attending a mantinee show?");
+  
   if (isMatinee.toLowerCase() === "yes" || isMatinee.toLowerCase() === "y") {
     cost = cost - MANTINEE_DISCOUNT;
     alert("Your ticket cost is: $ " + cost);
   }
-  if (isMatinee.toLowerCase() === "no" || isMatinee.toLowerCase() === "n") {
+  else if (isMatinee.toLowerCase() === "no" || isMatinee.toLowerCase() === "n") {
     cost = GENERAL_ADMISSION_TICKET_COST;
     alert("Your ticket cost is: $ " + cost);
   } else {
     alert("Please answer yes or no.");
+    buyTicket();
+    //Let them try again this is an infite loop if they just keep clicking ok :) 
 }
 
 
@@ -34,3 +37,4 @@ function buyTicket() {
     }
   }
 }
+
