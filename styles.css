@@ -11,6 +11,9 @@
 nav{
     position: fixed
 }
+
+#buttonToBuy { 
+padding: 55px;}
 /* #buttonToBuyTicket{
     text-align: left;
     padding: right 520px;
