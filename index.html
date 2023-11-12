@@ -48,25 +48,48 @@
                 <h1>Magical Mystery Theater</h1>
                 <h4>Amazing shows 3 times a day!</h4>
                 <p>Staring el diablo in the magical display of death defying acts</p>
+                <button onclick="buyTicket()" type="button" id="buttonToBuy"required>Purchase Ticket</button>  
+
             </div>
         </div>
         <div class="col-md-6">
             <div
                 class="h-100 p-5 bg-primary border rounded-3">
-                <h3>Regular price: $20</h3>
+                <!-- <h3>Regular price: $20</h3>
                 <h3>Senior (65+) & kids (under 12): $10</h3>
-                <h3>Mantinee price: save $3 on any ticket </h3>
+                <h3>Mantinee price: save $3 on any ticket </h3> -->
+                <div class="table-responsive">
+                    <table class="table table-bordered table-striped table-highlight">
+                      <thead>
+                        <th >Tickets all on sale</th>
+                        <th>Date</th>
+                        <th>Cost</th>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Regular ticket </td>
+                          <td id="time">10/12/2023</td>
+                          <td>$20</td>
+                        </tr>
+                        <tr>
+                          <td>Senior (65+) & kids (under 12) ticket</td>
+                          <td id="time">11/15/2023</td>
+                          <td>$10</td>
+                        </tr>
+                        <tr>
+                            <td>Mantinee ticket: $3 dollar discount</td>
+                            <td id="time">12/15/2023</td>
+                            <td>$-3</td>
+                            
+                          </tr>
+                        <tr>
+                    </div>
 
-
-                &nbsp;&nbsp;&nbsp;&nbsp;
-                <button onclick="buyTicket()" type="button" id="buttonToBuy"required>Purchase Ticket</button>  
-                &nbsp;&nbsp;&nbsp;&nbsp;
-                <div class="col-md-6">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, voluptas molestias fugit dignissimos saepe, magni odit alias tempore veritatis, in impedit esse porro nihil nisi doloremque necessitatibus numquam omnis hic!.</p>
-                </div>
+                
             </div>      
         </div>
-       
+        <button onclick="buyTicket()" type="button" id="buttonToBuy"required>Purchase Ticket</button>  
+
       </div>
 </body>
 </html>

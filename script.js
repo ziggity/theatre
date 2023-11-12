@@ -105,4 +105,10 @@ function buyTicket() {
 //     console.log("no mantinee click again or enter again: ", cost);
 //     //Let them try again this is an infite loop if they just keep clicking ok :) 
 //     }
-  
+
+
+// let timeNow =  new Date().toLocaleString();
+// var today = new Date();   
+// document.getElementById("time").innerHTML = today.toLocaleString;
+// I'd like to parse the date but this would be more for a receipt so future work.
+
