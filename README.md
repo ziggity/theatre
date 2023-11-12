@@ -12,3 +12,5 @@ Declare two global constants for the general admission ticket price and the disc
 Write a function named buyTicket(). This function should ask the user for their age (use prompt()) and calculate the initial ticket price based on the user's age. Display the ticket price to the user using alert(). Hint: You'll need to use an if statement to check the user's age and determine the ticket price. Don't forget to call your buyTicket() function when the user clicks the button.
 Refactor your code. Extract the code responsible for calculating the base ticket price based on age to a new function named getBaseTicketCost(age). This new function should take age as a parameter and return the appropriate ticket price. You should then call this function from within buyTicket().
 Add a matinee discount. Ask the user if they are attending a matinee show (use prompt() again), and if so, apply a $3 discount to their ticket price. Hint: You'll need to use another if statement to check the user's response and apply the discount if necessary. Consider declaring another global constant for the matinee discount.
+
+# Check it out here live: https://brown-joceline-34.tiiny.site/
